@@ -43,7 +43,14 @@ npm start
 
 ## Deployment
 
-This server is designed to be deployed on Render.com. Use the following settings:
+This server is designed to be deployed on Railway. Follow these steps:
 
-- **Build Command**: `npm install`
-- **Start Command**: `npm start` 
+1. Create a new project on [Railway](https://railway.app/)
+2. Connect your GitHub repository
+3. Select the server directory as the source directory
+4. Railway will automatically detect the configuration from railway.toml
+5. Set the following environment variables in Railway:
+   - `NODE_ENV`: `production`
+   - `CORS_ORIGINS`: Your frontend URLs (comma-separated)
+
+Railway will automatically assign a PORT and provide you with a deployment URL. 

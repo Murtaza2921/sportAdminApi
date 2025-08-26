@@ -10,12 +10,14 @@ import crypto from 'node:crypto';
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-// Configure CORS to allow requests from any origin in development
-// In production, you might want to restrict this to your frontend domain
+// Configure CORS to allow requests from specified origins in production
+// In development, allow requests from any origin
+const corsOrigins = process.env.NODE_ENV === 'production' && process.env.CORS_ORIGINS
+  ? process.env.CORS_ORIGINS.split(',').map(origin => origin.trim())
+  : '*';
+
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? ['https://cricket-surge-motion.netlify.app', 'https://cricket-surge-motion.vercel.app'] 
-    : '*',
+  origin: corsOrigins,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
