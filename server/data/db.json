@@ -1,0 +1,24 @@
+{
+  "products": [],
+  "events": [],
+  "sales": [],
+  "categories": [],
+  "flash": {
+    "enabled": false,
+    "bannerUrl": ""
+  },
+  "users": [
+    {
+      "id": "a9bcebd5-848e-45f6-8375-835d436e2f52",
+      "email": "murtaza7571@gmail.com",
+      "passwordHash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "835f2947-2ac3-4f20-bee2-e148fd6378b9",
+      "userId": "a9bcebd5-848e-45f6-8375-835d436e2f52",
+      "createdAt": 1756227592676
+    }
+  ]
+}

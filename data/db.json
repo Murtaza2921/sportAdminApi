@@ -1,0 +1,73 @@
+{
+  "products": [
+    {
+      "id": "020efa9b-8ca4-4451-bc6f-1d2591624a0d",
+      "createdAt": 1756207371012,
+      "name": "bat",
+      "price": "12000",
+      "description": "new bat availabe in 12000 only ",
+      "category": "",
+      "image": "",
+      "originalPrice": "",
+      "rating": 4.5,
+      "isNew": false,
+      "isBestSeller": false
+    },
+    {
+      "id": "0cd01c4e-c0e9-4342-b147-b4c7101dc6fc",
+      "createdAt": 1756209772310,
+      "name": "MS bat",
+      "price": "12000",
+      "originalPrice": "13000",
+      "rating": 4.5,
+      "image": "http://localhost:4000/uploads/1756211614213-i5mq32a0c7l.png",
+      "video": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "category": "bats",
+      "isNew": false,
+      "isBestSeller": true,
+      "description": "new product added",
+      "images": [
+        "http://localhost:4000/uploads/1756211614213-i5mq32a0c7l.png",
+        "http://localhost:4000/uploads/1756211619458-9t8lkzxgh4.jpeg",
+        "http://localhost:4000/uploads/1756211619462-nr2id42vuqj.png",
+        "http://localhost:4000/uploads/1756211619470-hl4ss4yg51b.png"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "ab94aeee-3935-4845-8e34-752fd4cf20df",
+      "createdAt": 1756213892443,
+      "name": "tornament ",
+      "date": "2025-01-01",
+      "location": "islamabad",
+      "type": "Tournament",
+      "description": "new event added"
+    }
+  ],
+  "sales": [],
+  "categories": [
+    {
+      "id": "cbfbc03f-510a-4ac2-914a-c8792ca0a69d",
+      "name": "bats"
+    }
+  ],
+  "flash": {
+    "enabled": false,
+    "bannerUrl": ""
+  },
+  "users": [
+    {
+      "id": "1d6d8c0d-273a-40f7-aafe-9682dc6c6606",
+      "email": "admin@gmail.com",
+      "passwordHash": "ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "5ffb55f0-b630-4858-a297-85e7704ba873",
+      "userId": "1d6d8c0d-273a-40f7-aafe-9682dc6c6606",
+      "createdAt": 1756214729283
+    }
+  ]
+}
